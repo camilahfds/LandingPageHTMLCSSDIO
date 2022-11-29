@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    background-image: url('./imagens/Background Gradient.png');
+    background-color: black;
+    opacity: 0.85;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.bloco-tres {
+    min-width: 700px;
+    height: auto;
+    object-fit: cover;
+    background-color: black;
+
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    border: 1px #00abf5 solid;
+    
+}
+
+.banner::before {
+    content: url('./imagens/transforme\ o\ mundo\ com\ a\ gente.png');
+    
+
+}
+
+.banner {
+    object-fit: cover;
+}
+
+.item {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.subloco p {
+    color:white;
+}
+.bloco-um p {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.bloco-um{
+    margin-top: 45px ;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    justify-content: space-around;
+
+}
+
+.bloco-um h1 {
+    font-size: 40px;
+}
+
+.bloco-dois {
+    min-width: 100vw;
+    min-height: 30rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+.position {
+    position: relative;
+    right: 500px;
+    bottom: 250px;
+}
+
+.bloco-quatro img {
+    width: 659px;
+    height: 429px;
+}
+
+.bloco-quatro {
+    font-size: 16px;
+    color: white;
+    line-height: 19px;
+    background-color: black;
+    min-width: 100vw;
+    text-align: center;
+
+}
+.modulos {
+    width: 535px;
+    border: 3px #00abf5 solid;
+    background: #252525;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    margin: 13px;
+    padding: 16px 127px;
+   
+}
+a { color: inherit; } 
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #33A8DB;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+h2{
+    font-weight: 700;
+    line-height: 38px;
+    color: #33A8DB;
+    line-height: 38px;
+    font-size: 32px;
+    padding: 30px;
+    letter-spacing: 0.19em;
+}
+
+
+.btn {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 276px;
+    height: 47px;
+    font-weight: 900;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    color: #33A8DB;
+    margin-top: 30px;;
+    border: 1px #33A8DB solid;
+
+
+}
+.modulos mark {
+    background-color: #252525;
+    color: #33A8DB;
+}
+
+.btn a {
+    display: flex;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+
+}
+
+#s-bloco {
+    padding: 0 0 180px;
+    margin-top: 0;
+}
+
+#q-bloco {
+    padding: 210px;
+}
+
+
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+    margin-bottom: 45px;
+    text-decoration: none;
+    color:white;
+    background-image: url('./imagens/Rectangle\ 1.png');
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+
+
+}
